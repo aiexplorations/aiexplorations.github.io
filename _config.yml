@@ -1,1 +1,11 @@
-theme: jekyll-theme-tactile
+title: AI Explorations
+author: GitHub User
+email: rexplorations@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is a site where I discuss statistical analysis, data science, machine learning, deep learning and other related topics.
+
+# social links
+twitter_username: aiexplorations # DO NOT include the @ character, or else the build will fail!
+github_username:  aiexplorations # DO NOT include the @ character, or else the build will fail!
+
+show_excerpts: true # set to false to remove excerpts on the homepage
