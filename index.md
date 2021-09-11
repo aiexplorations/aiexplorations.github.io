@@ -1,5 +1,5 @@
 Welcome to AI Explorations' Blog!
 
-This is a blog for discussing data science, statistics, machine learning and related topics.
+This is a site where I discuss statistical analysis, data science, machine learning, deep learning and other related topics.
 
 
