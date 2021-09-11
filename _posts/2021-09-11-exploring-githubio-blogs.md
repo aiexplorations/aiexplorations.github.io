@@ -5,8 +5,6 @@ date: 2021-09-11
 categories: new_beginnings, artificial_intelligence, machine_learning, github, blogging
 --- 
 
-# Exploring Github.io blogs
-
 Well, it has been several years since I did anything interesting with my blog!!
 
 For years, I have been on Wordpress.com, and a couple of years ago, I bought the domain aiexplorations.in to host my blog.
