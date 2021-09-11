@@ -5,7 +5,7 @@ date: 2021-09-11
 categories: new_beginnings, artificial_intelligence, machine_learning, github, blogging
 --- 
 
-# AI Explorations: Exploring Github.io
+# Exploring Github.io
 
 Well, it has been several years since I did anything interesting with my blog!!
 
