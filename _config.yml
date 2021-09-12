@@ -9,7 +9,8 @@ twitter_username: aiexplorations # DO NOT include the @ character, or else the b
 github_username:  aiexplorations # DO NOT include the @ character, or else the build will fail!
 
 show_excerpts: true # set to false to remove excerpts on the homepage
-
+plugins: 
+  - jekyll-spaceship
 theme: minima
 markdown: kramdown
 kramdown:
