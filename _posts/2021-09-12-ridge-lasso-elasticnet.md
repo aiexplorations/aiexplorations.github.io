@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Experimenting on the Ridge Regularization Method"
+title: "Exploring the Mathematics of Shrinkage Regularization in Regression Models"
 date: 2021-09-12
 categories: artificial_intelligence, machine_learning, github, mathematics, blogging
 --- 
 
 # Background and Note
 
-For years, I've been using Markdown functionality within VS Code separately and within Wordpress.com separately. Since I maintain a blog at [AI Explorations](https://aiexplorations.in), I haven't really stepped into the process of making publishing on Github repositories (or other repositories) work for my Wordpress.com blog. Granted, I did post code, equations and so on in the past, but these were authored directly within the Wordpress.com blog. As a consequence, I haven't benefited from the comfort of working with a regular Markdown or text editor. 
+For years, I've been using Markdown functionality within VS Code separately and within Wordpress.com separately. Since I maintain a blog at [AI Explorations](https://aiexplorations.in), I haven't really stepped into the process of making publishing on Github repositories (or other repositories) work for my Wordpress blog. Granted, I did post code, equations and so on in the past, but these were authored directly within the Wordpress blog. As a consequence, I haven't benefited from the comfort of working with a regular Markdown or text editor. 
 
 Since I explored Github Pages last week, I have started up this blog at [AI Explorations Github](https://aiexplorations.github.io) and am now trying things out here, such as:
 1. Mathematical equations - because we deal with a lot of mathematics and statistics in machine learning and data science
@@ -55,7 +55,6 @@ $$
 \tilde{\beta} = argmin_{\beta} \Bigg\{ \sum_{i=1}^N (y_i - \beta_0 - \sum_{j=1}^p x_{ij} \beta^2 ) + \lambda\sum_{j=1}^p |\beta_j|^q  \Bigg\} 
 
 $$ (4)
-
 
 # Elastic Net Penalty and Uses
 

@@ -11,3 +11,6 @@ github_username:  aiexplorations # DO NOT include the @ character, or else the b
 show_excerpts: true # set to false to remove excerpts on the homepage
 
 theme: minima
+markdown: kramdown
+kramdown:
+    math_engine: katex
