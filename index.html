@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Explorations</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #e0e0e0;
+        }
+        .container {
+            max-width: 800px;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+        .tagline {
+            font-size: 1.1rem;
+            color: #a0a0a0;
+            margin-bottom: 3rem;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        .project {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: left;
+            transition: transform 0.2s, border-color 0.2s;
+            text-decoration: none;
+            color: inherit;
+        }
+        .project:hover {
+            transform: translateY(-4px);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+        .project h2 {
+            font-size: 1.2rem;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+        .project p {
+            font-size: 0.9rem;
+            color: #a0a0a0;
+            line-height: 1.5;
+        }
+        .project .tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            background: rgba(138, 43, 226, 0.3);
+            color: #d8b4fe;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            margin-top: 0.75rem;
+        }
+        .links {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+        .links a {
+            color: #a0a0a0;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+        .links a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Explorations</h1>
+        <p class="tagline">Open source projects in AI, search, and multi-agent systems</p>
+
+        <div class="projects">
+            <a href="https://aiexplorations.github.io/vajra_bm25/" class="project">
+                <h2>Vajra BM25</h2>
+                <p>High-performance BM25 search engine with category theory abstractions. 291x faster than baseline.</p>
+                <span class="tag">Search Engine</span>
+            </a>
+
+            <a href="https://github.com/aiexplorations/praval" class="project">
+                <h2>Praval</h2>
+                <p>Multi-agent framework for building large-scale Agentic AI. Simple agents, powerful results.</p>
+                <span class="tag">Multi-Agent AI</span>
+            </a>
+
+            <a href="https://github.com/aiexplorations/todacomm" class="project">
+                <h2>TODACOMM</h2>
+                <p>Topological Data Analysis for comparing transformer representations using persistent homology.</p>
+                <span class="tag">ML Research</span>
+            </a>
+
+            <a href="https://github.com/aiexplorations/deep-lyapunov" class="project">
+                <h2>Deep Lyapunov</h2>
+                <p>Analyze neural network training stability using Lyapunov exponents and perturbation analysis.</p>
+                <span class="tag">ML Research</span>
+            </a>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/aiexplorations">GitHub</a>
+            <a href="https://pypi.org/user/aiexplorations/">PyPI</a>
+        </div>
+    </div>
+</body>
+</html>
